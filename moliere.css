@@ -59,6 +59,27 @@ tr:nth-child(even) {
     background-color: #c4b1b1;
 }
 .name:hover{
-    color: violet;
+    color: transparent;;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+ul.navbar-horizontal {
+    /* remove these */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.navbar-horizontal li {
+    float:left; /* line up horizontally */
+    color:#000;
+    background-color: black;
+}
+ul.navbar-horizontal a {
+    display:block;
+    padding:8px;
+}
+/* on hover change the link color*/
+ul.navbar-horizontal a:hover {
+    background-color: #555;
+    color:white;
 }
