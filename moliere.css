@@ -1,0 +1,30 @@
+.speech {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: black;
+}
+.direction {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: black;
+    background-color: #E6E6FA;
+
+}
+.name {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: black;
+}
+.direction:hover{
+    background-color:rgb(14, 99, 71);
+    color: rgb(213, 217, 221);
+}
+.ariste {
+    color: green;
+}
+.chrysale {
+    color: goldenrod;
+}
+.belise {
+    color: greenyellow;
+}
